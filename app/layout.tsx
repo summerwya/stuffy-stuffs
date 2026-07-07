@@ -1,17 +1,13 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Lobster } from "next/font/google";
 import "./globals.css";
-import { FaDiscord, FaPatreon, FaTiktok, FaYoutube } from "react-icons/fa6";
+import { FaDiscord, FaPatreon, FaTiktok, FaTwitter, FaYoutube } from "react-icons/fa6";
+import Image from "next/image";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const lobster = Lobster({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+  weight: "400"
+})
 
 export const metadata: Metadata = {
   title: {
@@ -29,21 +25,31 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className="h-full antialiased"
     >
-      <body className="min-h-full flex flex-col items-center">
+      <body className="h-full flex flex-col items-center">
         <nav className="flex justify-between w-20 p-4 bg-white rounded-3xl w-[80%] m-2 text-rose-300 w-96 shadow-lg">
-          <div className="hidden md:block">
-            <h1 className="text-3xl">Digisite</h1>
+          <div className="hidden md:flex flex-row items-center gap-3">
+            <Image 
+              src="/chu.png"
+              width="50"
+              height="50"
+              alt="Icon"
+              className="rounded-full"
+            />
+            <h1 className={"text-3xl " + lobster.className}>Stuffy-Stuffs</h1>
           </div>
           <div className="flex items-center justify-center md:justify-around w-full md:w-fit gap-4 text-3xl md:text-xl">
-            <a href="https://www.tiktok.com/@tzumi.miloo"><FaTiktok /></a>
+            <a href="https://x.com/digi_animator"><FaTwitter /></a>
             <a href="https://www.youtube.com/@Koliieclef"><FaYoutube /></a>
             <a href="https://www.patreon.com/c/summerwya"><FaPatreon /></a>
             <a href="https://discord.gg/aeUns7jrS8"><FaDiscord /></a>
+            <a href="https://www.tiktok.com/@tzumi.miloo"><FaTiktok /></a>
           </div>
         </nav>
-        {children}
+        <main className="overflow-hidden">
+          {children}
+        </main>
       </body>
     </html>
   );
