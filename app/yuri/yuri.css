@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@tailwind base;
+
+select {
+    @apply p-5 border-4 rounded-lg ;
+}
