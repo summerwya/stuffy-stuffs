@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   },
   description: "Regular Survival Minecraft Server for Hangouts. Active every day and is hosted through cloudflare so ping is minimum. Join to meet a lot of nice people!",
   openGraph: {
-    title: 'UMAasaSMP',
+    title: 'UMAasaSMP - A Regular Surival Minecraft Server for Hangouts',
     description: "Regular Survival Minecraft Server for Hangouts. Active every day and is hosted through cloudflare so ping is minimum. Join to meet a lot of nice people!",
     url: 'https://stuffy-stuffs.com/umaasasmp',
     siteName: 'UMAasaSMP - A Regular Surival Minecraft Server for Hangouts',
