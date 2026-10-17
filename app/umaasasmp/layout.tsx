@@ -15,12 +15,12 @@ export const metadata: Metadata = {
     default: "Home",
     template: "%s | UMAasaSMP"
   },
-  description: "Regular Survival Minecraft Server",
+  description: "Regular Survival Minecraft Server for Hangouts. Active every day and is hosted through cloudflare so ping is minimum. Join to meet a lot of nice people!",
   openGraph: {
     title: 'UMAasaSMP',
-    description: "Regular Survival Minecraft Server",
+    description: "Regular Survival Minecraft Server for Hangouts. Active every day and is hosted through cloudflare so ping is minimum. Join to meet a lot of nice people!",
     url: 'https://stuffy-stuffs.com/umaasasmp',
-    siteName: 'UMAasaSMP',
+    siteName: 'UMAasaSMP - A Regular Surival Minecraft Server for Hangouts',
     images: [
       {
         url: "https://stuffy-stuffs.com/zoi_baterbonia.png",
