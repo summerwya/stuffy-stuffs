@@ -12,10 +12,25 @@ const lobster = Lobster({
 
 export const metadata: Metadata = {
   title: {
-    default: "Stuffy-Stuffs",
-    template: "%s | Stuffy-Stuffs"
+    default: "Home",
+    template: "%s | UMAasaSMP"
   },
-  description: "Stuff like tools",
+  description: "Regular Survival Minecraft Server",
+  openGraph: {
+    title: 'UMAasaSMP',
+    description: "Regular Survival Minecraft Server",
+    url: 'https://stuffy-stuffs.com/umaasasmp',
+    siteName: 'UMAasaSMP',
+    images: [
+      {
+        url: "https://stuffy-stuffs.com/zoi_baterbonia.png",
+        width: 1536,
+        height: 1024
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  }
 };
 
 export default function RootLayout({
