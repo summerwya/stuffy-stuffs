@@ -18,7 +18,7 @@ export default function Yuri() {
                 <h1 className="text-2xl">Uma Yuri</h1>
             </nav>
             <main className="flex flex-1 flex-col items-center justify-center text-white w-full h-full p-6 md:p-36">
-                <select className="text-lg" onSelect={() => setFirstCharacter("Agnes Digital")}>
+                {/* <select className="text-lg" onSelect={() => setFirstCharacter("Agnes Digital")}>
                     {characters.map((character) => (
                         <option key={character} value={character} selected={firstCharacter == character}>{character}</option>
                     ))}
@@ -28,7 +28,7 @@ export default function Yuri() {
                     {characters.map((character) => (
                         <option key={character} value={character} selected={secondCharacter == character}>{character}</option>
                     ))}
-                </select>
+                </select> */}
             </main>
         </>
     );
