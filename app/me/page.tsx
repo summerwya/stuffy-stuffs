@@ -13,6 +13,7 @@ export default function Home() {
           <li>Poor (God, i LOVE the Philippines)</li>
           <li>Outside I&apos;m <u>fine</u> but i&apos;m really... <span className="underline italic font-bold">filipino</span>...</li>
           <li>Yapperist</li>
+          <li>I <strong><em>LOVE</em></strong> <a href="http://umamusume.com">umamusume</a></li>
         </ul>
 
         <h3 className="text-xl my-5">My Hobbies:</h3>

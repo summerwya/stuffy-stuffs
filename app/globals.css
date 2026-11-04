@@ -54,3 +54,7 @@ a {
 code {
   @apply bg-gray-900 text-white p-1 rounded-lg;
 }
+
+.border-children-none > * {
+  @apply border-none;
+}

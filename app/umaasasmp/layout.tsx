@@ -12,10 +12,25 @@ const lobster = Lobster({
 
 export const metadata: Metadata = {
   title: {
-    default: "Stuffy-Stuffs",
-    template: "%s | Stuffy-Stuffs"
+    default: "Home",
+    template: "%s | UMAasaSMP"
   },
-  description: "Stuff like tools",
+  description: "Regular Survival Minecraft Server for Hangouts. Active every day and is hosted through cloudflare so ping is minimum. Join to meet a lot of nice people!",
+  openGraph: {
+    title: 'UMAasaSMP - A Regular Surival Minecraft Server for Hangouts',
+    description: "Regular Survival Minecraft Server for Hangouts. Active every day and is hosted through cloudflare so ping is minimum. Join to meet a lot of nice people!",
+    url: 'https://stuffy-stuffs.com/umaasasmp',
+    siteName: 'UMAasaSMP - A Regular Surival Minecraft Server for Hangouts',
+    images: [
+      {
+        url: "https://stuffy-stuffs.com/zoi_baterbonia.png",
+        width: 1536,
+        height: 1024
+      }
+    ],
+    locale: "en_US",
+    type: "website"
+  }
 };
 
 export default function RootLayout({
