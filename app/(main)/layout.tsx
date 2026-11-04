@@ -36,12 +36,12 @@ export default function RootLayout({
               />
             <h1 className={"text-3xl " + lobster.className}>Stuffy-Stuffs</h1>
           </div>
-          <div className="flex items-center justify-center md:justify-around w-full md:w-fit gap-4 text-3xl md:text-xl">
+          <div className="flex items-center justify-center md:justify-around w-full md:w-fit gap-4 text-3xl md:text-xl border-children-none">
+            <a href="https://www.tiktok.com/@aceyacedthat"><FaTiktok /></a>
             <a href="https://x.com/digi_animator"><FaTwitter /></a>
-            <a href="https://www.youtube.com/@Koliieclef"><FaYoutube /></a>
+            <a href="https://www.youtube.com/@tungtungshakirk"><FaYoutube /></a>
             <a href="https://www.patreon.com/c/summerwya"><FaPatreon /></a>
-            <a href="https://discord.gg/aeUns7jrS8"><FaDiscord /></a>
-            <a href="https://www.tiktok.com/@tzumi.miloo"><FaTiktok /></a>
+            {/* <a href="https://discord.gg/aeUns7jrS8"><FaDiscord /></a> */}
           </div>
         </nav>
         <main className="overflow-hidden">
